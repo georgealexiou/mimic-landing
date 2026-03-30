@@ -33,7 +33,7 @@ function Hero() {
   return (
     <section className="relative max-w-5xl mx-auto px-8 pt-24 pb-32 text-center">
       {/* Glow */}
-      <div className="pointer-events-none absolute inset-0 flex items-start justify-center -top-20">
+      <div className="pointer-events-none absolute inset-0 flex items-start justify-center top-32">
         <div className="w-[600px] h-[400px] rounded-full bg-violet-600/20 blur-[120px]" />
       </div>
 
