@@ -16,7 +16,7 @@ function Nav() {
   return (
     <nav className="flex items-center justify-between px-8 py-5 max-w-5xl mx-auto">
       <div className="flex items-center gap-2.5">
-        <img src="/icon.png" alt="Mimic" className="w-7 h-7 rounded-xl" />
+        <img src="/icon.png" alt="Mimic" className="w-9 h-9 rounded-xl" />
         <span className="text-white font-semibold tracking-tight">Mimic</span>
       </div>
       <a
@@ -34,19 +34,19 @@ function Hero() {
     <section className="relative max-w-5xl mx-auto px-8 pt-24 pb-32 text-center">
       {/* Glow */}
       <div className="pointer-events-none absolute inset-0 flex items-start justify-center top-32">
-        <div className="w-[600px] h-[400px] rounded-full bg-violet-600/20 blur-[120px]" />
+        <div className="w-[600px] h-[400px] rounded-full blur-[120px]" style={{ background: 'radial-gradient(ellipse, #5C106D33, #C1727222)' }} />
       </div>
 
       <div className="relative">
         <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-sm text-neutral-400 mb-8">
-          <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
+          <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: '#C17272' }} />
           Free
         </div>
 
         <h1 className="text-6xl sm:text-7xl font-bold tracking-tight leading-[1.05] mb-6">
           <span className="text-white">Your clipboard,</span>
           <br />
-          <span className="bg-gradient-to-r from-violet-400 to-pink-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-[#C17272] to-[#5C106D] bg-clip-text text-transparent">
             finally powerful.
           </span>
         </h1>
