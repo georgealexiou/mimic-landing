@@ -3,6 +3,8 @@ import { useEffect, useState, useSyncExternalStore } from "react";
 const DOWNLOAD_URL =
   "https://github.com/georgealexiou/mimic-releases/releases/latest/download/mimic.dmg";
 
+const PRODUCT_HUNT_URL = "https://www.producthunt.com/products/mimc";
+
 /* ------------------------------------------------------------------ */
 /*  Hash router                                                        */
 /* ------------------------------------------------------------------ */
@@ -221,6 +223,18 @@ function Hero() {
           Download for macOS
         </a>
         <span className="text-xs text-neutral-500">Free · macOS 26+</span>
+      </div>
+
+      <div className="flex items-center justify-center mt-6">
+        <a
+          href={PRODUCT_HUNT_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/[0.1] bg-white/[0.04] hover:bg-white/[0.08] transition-colors text-xs text-neutral-400 hover:text-neutral-200"
+        >
+          <span style={{ color: "#FF6154" }}>▲</span>
+          Featured on Product Hunt
+        </a>
       </div>
     </section>
   );
